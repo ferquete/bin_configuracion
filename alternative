@@ -1,0 +1,2 @@
+#sudo update-alternatives --install /usr/bin/eclipse eclipse /opt/eclipse/eclipse 1
+sudo update-alternatives --install $1 $2 $3 1

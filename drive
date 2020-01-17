@@ -1,0 +1,4 @@
+#!/bin/bash
+
+google-drive-ocamlfuse /home/fer/trabajo/google_drive
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -e "\n\n\n\n\n\n\n\n\n\n"
+echo $1 | xmllint --format -
+echo -e "\n\n\n\n\n"

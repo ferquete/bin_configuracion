@@ -1,0 +1,2 @@
+nohup echo "connect 00:0A:94:C1:34:3B" | bluetoothctl >/dev/null 2>/dev/null && clear
+

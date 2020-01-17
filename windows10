@@ -1,0 +1,1 @@
+nohup vboxmanage startvm win10 >/dev/null 2>/dev/null

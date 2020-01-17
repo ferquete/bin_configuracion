@@ -1,0 +1,2 @@
+#o utilizar baobab
+du -sh .[A-z0-9]* * |sort -n 

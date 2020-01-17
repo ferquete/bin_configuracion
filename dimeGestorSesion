@@ -1,0 +1,6 @@
+
+# sudo dpkg-reconfigure gdm3
+# ... sddm
+sudo cat /etc/X11/default-display-manager
+
+

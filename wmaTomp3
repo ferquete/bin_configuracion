@@ -1,0 +1,11 @@
+#!/bin/bash
+
+indice=1;
+
+for i in /home/fer/wma/*.wma; 
+do 
+	
+	 
+	ffmpeg -i $i -acodec libmp3lame -ab 128k /home/fer/wma/$indice.mp3 ;
+	((indice+=1));
+done;
