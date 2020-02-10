@@ -14,7 +14,6 @@ comentario = input("Comentario: ")
 if comentario:
     os.system("git add -A && git commit -m \"{comentario}\"")
     
-    print(p.stdout)
 else:
     print("Error! se necesita un comentario...")
     exit(1)
