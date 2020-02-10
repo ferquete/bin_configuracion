@@ -15,7 +15,8 @@ if comentario:
     os.system("git add -A && git commit -m \"{comentario}\"")
     p = subprocess.run(["git","push","-u","origin","master"], 
                        input=[b"ferquete",b"66qbcqbcGithub??"],
-                       stdout=subprocess.PIPE)
+                       stdout=subprocess.PIPE,
+                       shell=True)
     print(p.stdout)
 else:
     print("Error! se necesita un comentario...")
