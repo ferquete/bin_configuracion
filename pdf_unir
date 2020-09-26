@@ -1,0 +1,4 @@
+# https://blog.desdelinux.net/pdftk-una-herramienta-para-dividir-archivos-pdf-desde-la-terminal/
+
+pdftk *.pdf cat output $1
+
