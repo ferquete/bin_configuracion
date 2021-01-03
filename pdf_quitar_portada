@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+for i in $(ls)
+do
+    pdftk $i cat 2-end output "sin_portada_$i" 
+done
